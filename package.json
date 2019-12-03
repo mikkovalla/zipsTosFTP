@@ -1,0 +1,38 @@
+{
+  "name": "zipstosftp",
+  "version": "1.0.0",
+  "description": "NodeJS program to create random zip files and save them to sFTP server for Logic App Trigger testing",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "npm run test",
+    "start": "node index.js",
+    "build": "node build/build.js",
+    "watch": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikkovalla/zipsTosFTP.git"
+  },
+  "keywords": [
+    "zip",
+    "sFTP",
+    "Logic",
+    "App"
+  ],
+  "author": "Mikko Vallaskivi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikkovalla/zipsTosFTP/issues"
+  },
+  "homepage": "https://github.com/mikkovalla/zipsTosFTP#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "eslint": "^6.7.2",
+    "eslint-config-airbnb": "^18.0.1",
+    "express": "^4.17.1",
+    "jszip": "^3.2.2",
+    "nodemon": "^2.0.1",
+    "yarn": "^1.21.0"
+  }
+}
